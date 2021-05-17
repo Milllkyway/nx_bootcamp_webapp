@@ -1,0 +1,30 @@
+baseURL = "http://example.com/"
+languageCode = "en-us, ru"
+title = "NX Bootcamp"
+theme = "Massively"
+
+[menu]
+[[menu.main]]
+    identifier = "current task"
+    name = "Current task"
+    title = "Current task section"
+    url = "/cur_task/"
+    weight = -110
+[[menu.main]]
+    identifier = "book"
+    name = "Books"
+    title = "Books section"
+    url = "/books/"
+    weight = -110
+[[menu.main]]
+    identifier = "links"
+    name = "Links"
+    title = "Links section"
+    url = "/links/"
+    weight = -110
+[[menu.main]]
+    identifier = "other"
+    name = "Other"
+    title = "Section with some stuff"
+    url = "/other/"
+    weight = -110
